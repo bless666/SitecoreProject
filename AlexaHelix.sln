@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33328.57
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Feature", "Feature", "{6E9BD423-3141-450C-A5C2-29860FE2F47E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FAQ", "FAQ", "{36DF9C8D-3D39-45A4-820C-523A068F9D0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Project", "Project", "{204CF915-CFBF-45AD-903B-9CBA8ACE9965}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Foundation", "Foundation", "{A0113631-1EEB-4952-A7BC-048710BDA570}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaHelix.Feature.FAQ", "src\Feature\FAQ\code\AlexaHelix.Feature.FAQ.csproj", "{F4695E66-4CCA-4065-AF0C-0FAC1B4E640B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configuration", "Configuration", "{C9502250-18D9-491D-82EC-C243B4109560}"
+	ProjectSection(SolutionItems) = preProject
+		gulp-config.js = gulp-config.js
+		gulpfile.js = gulpfile.js
+		package.json = package.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{EBB2996B-DA6C-42BA-952A-413C3E557B68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlexaHelix.Feature.Blog", "src\Feature\Blog\code\AlexaHelix.Feature.Blog.csproj", "{DCD311CF-2BBB-4100-B8A7-91D64875EA6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4695E66-4CCA-4065-AF0C-0FAC1B4E640B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4695E66-4CCA-4065-AF0C-0FAC1B4E640B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4695E66-4CCA-4065-AF0C-0FAC1B4E640B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4695E66-4CCA-4065-AF0C-0FAC1B4E640B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD311CF-2BBB-4100-B8A7-91D64875EA6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD311CF-2BBB-4100-B8A7-91D64875EA6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD311CF-2BBB-4100-B8A7-91D64875EA6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD311CF-2BBB-4100-B8A7-91D64875EA6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{36DF9C8D-3D39-45A4-820C-523A068F9D0D} = {6E9BD423-3141-450C-A5C2-29860FE2F47E}
+		{F4695E66-4CCA-4065-AF0C-0FAC1B4E640B} = {36DF9C8D-3D39-45A4-820C-523A068F9D0D}
+		{EBB2996B-DA6C-42BA-952A-413C3E557B68} = {6E9BD423-3141-450C-A5C2-29860FE2F47E}
+		{DCD311CF-2BBB-4100-B8A7-91D64875EA6D} = {EBB2996B-DA6C-42BA-952A-413C3E557B68}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C2CFCA6A-CCF9-4F43-98EE-334D8039D840}
+	EndGlobalSection
+EndGlobal
